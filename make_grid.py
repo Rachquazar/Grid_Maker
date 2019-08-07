@@ -13,14 +13,14 @@ parser = argparse.ArgumentParser(description='Image grid maker')
 #Either pass arguments on terminal or change values here
 
 parser.add_argument('-image_folder', default='/home/anil/Desktop/images')
-parser.add_argument('-resolution', default = 128,type=int)
+parser.add_argument('-resolution', default = 64,type=int)
 parser.add_argument('-aspect_ratio', default='4:3',type=str)
-parser.add_argument('-grid_dim', default='1:6', type=str)
+parser.add_argument('-grid_dim', default='3:2', type=str)
 parser.add_argument('-keeplabel', default='true')
 parser.add_argument('-fontpath', default='/home/anil/Desktop/Times New Roman.ttf', type=str)
 parser.add_argument('-imageformat', default='png', type=str)
 parser.add_argument('-gridname', default='/home/anil/Desktop/grid', type=str)
-parser.add_argument('-fontsize', default=80, type=int)
+parser.add_argument('-fontsize', default=40, type=int)
 
 args = parser.parse_args()
 
