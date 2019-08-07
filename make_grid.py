@@ -16,7 +16,7 @@ parser.add_argument('-image_folder', default='/home/anil/Desktop/images')
 parser.add_argument('-resolution', default = 128,type=int)
 parser.add_argument('-aspect_ratio', default='4:3',type=str)
 parser.add_argument('-grid_dim', default='1:6', type=str)
-parser.add_argument('-keeplabel', default=True)
+parser.add_argument('-keeplabel', default='true')
 parser.add_argument('-fontpath', default='/home/anil/Desktop/Times New Roman.ttf', type=str)
 parser.add_argument('-imageformat', default='png', type=str)
 parser.add_argument('-gridname', default='/home/anil/Desktop/grid', type=str)
@@ -74,9 +74,10 @@ for image in image_list:
   
   text = '('+alphabet[alpha]+')'
   alpha = alpha+1 
-  if keeplabel==True:
+  if keeplabel=='true':
 
     draw = ImageDraw.Draw(new_im)
+    # Chnage the font colour by changing the values of (0,0,0). All three of the values can be varied from 0 to 255
     draw.text((0, 0),text,(0,0,0),font=font)   
  
   new_im = np.array(new_im,dtype=np.float32)
