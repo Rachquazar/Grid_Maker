@@ -12,7 +12,7 @@ Preferable - Create a virtual environment to work on so that the installed progr
 ### Install Dependancies ###
 pip install -r requirements.txt  
 
-Steps to run the program:
+### Steps to run the program ###
 
 - Put all the images in a folder 
 - Clone the repository and navigate to the respective folder
