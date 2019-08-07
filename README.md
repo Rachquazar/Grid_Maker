@@ -1,7 +1,7 @@
 # Grid_Maker
 
 This is a python program which takes hetrogeneous images annd curates a grid of dimensions chosen by the user. You can change the resolution,aspect ratio of a single image in the grid.
-If needed, you can add text in the images with a font of your choice. 
+If needed, you can add text in the images with a font of your choice. It can be used to make a single or multiple labelled grids to be included in research paper and documentations.
 
 
 ## System Requirements ##
