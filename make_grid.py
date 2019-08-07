@@ -34,6 +34,7 @@ aspect_ratio = [aspect_ratio_x,aspect_ratio_y]
 resolution = args.resolution   #how clear the image will be
 image_name = args.gridname
 keeplabel = args.keeplabel
+fontsize = args.fontsize
 
 image_list = os.listdir(path)
 
@@ -61,7 +62,6 @@ j=0
 
 grid = np.zeros(grid_shape)
 
-fontsize = 80
 font = ImageFont.truetype(font_path, fontsize)
 
 
