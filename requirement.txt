@@ -1,4 +1,4 @@
-opencv-python==3.4.0
+opencv-python==3.4.0.14
 numpy==1.14.3
 argparse==1.4.0
 Pillow==5.1.0
