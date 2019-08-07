@@ -14,7 +14,7 @@ Steps to run the program:
 - Run the following command on terminal - pip install -r requirements.txt   
 - If label needs to be added to the images, download the .tff file of your favorite format.
 - Run the program with the respective arguments - 
-  python make_grid.py -image_folder /home/rachna/images -gridname /home/anil/grid -keeplabel True
+  python make_grid.py -image_folder /home/rachna/images -gridname /home/anil/grid -keeplabel true
 - Following are the arguments you can set.
    -image_folder,-resolution,-aspect_ratio,-grid_dim,-keeplabel,-fontpath,-imageformat, -gridname,
    -fontsize 
