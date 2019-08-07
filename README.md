@@ -4,12 +4,12 @@ This is a python program which takes hetrogeneous images annd curates a grid of 
 If needed, you can add text in the images with a font of your choice. 
 
 
-##System Requirements##
+## System Requirements ##
 Python >= 3.5
 
 Preferable - Create a virtual environment to work on so that the installed programs don't meddle with past or future versions. I prefer virtualenv to do this.
 
-###Install Dependancies###
+### Install Dependancies ###
 pip install -r requirements.txt  
 
 Steps to run the program:
