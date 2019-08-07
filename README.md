@@ -1,7 +1,7 @@
 # Grid_Maker
 This program makes a grid of heterogeneous images with flexibility and labels the image if required. 
 
-This is a python program which takes hetrogeneous images annd curates a grid of of dimensions chosen by the user. You can change the resolution,aspect ratio of a single image in the grid.
+This is a python program which takes hetrogeneous images annd curates a grid of dimensions chosen by the user. You can change the resolution,aspect ratio of a single image in the grid.
 If needed, you can add text in the images with a font of your choice. 
 
 Compatibility - Python 3
@@ -14,7 +14,7 @@ Steps to run the program:
 - Run the following command on terminal - pip install -r requirements.txt   
 - If label needs to be added to the images, download the .tff file of your favorite format.
 - Run the program with the respective arguments - 
-  python make_grid.py -image_folder /home/rachna/images -gridname /home/anil/grid -keeplabel true
+  python make_grid.py -image_folder /home/rachna/images -gridname /home/rachna/grid -keeplabel true
 - Following are the arguments you can set.
    -image_folder,-resolution,-aspect_ratio,-grid_dim,-keeplabel,-fontpath,-imageformat, -gridname,
    -fontsize 
