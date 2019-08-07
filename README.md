@@ -23,4 +23,4 @@ Steps to run the program:
 
 Here is a result with default settings
 
-![alt text](http://)
+![alt text](https://github.com/Rachquazar/Grid_Maker/blob/master/images/grid.png)
