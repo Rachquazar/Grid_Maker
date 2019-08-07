@@ -21,4 +21,6 @@ Steps to run the program:
   
 - tff file of Times New Roman has been given in the repo as an example
 
+Here is a result with default settings
 
+![alt text](http://)
