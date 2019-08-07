@@ -10,7 +10,7 @@ Preferable - Create a virtual environment to work on so that the installed progr
 Steps to run the program:
 
 - Put all the images in a folder 
-- Clone the repository and navigate to the folder where you have cloned the repo
+- Clone the repository and navigate to the respective folder
 - Run the following command on terminal - pip install -r requirements.txt   
 - If label needs to be added to the images, download the .tff file of your favorite format.
 - Run the program with the respective arguments - 
